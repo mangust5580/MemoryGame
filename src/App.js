@@ -3,12 +3,12 @@ import './App.css';
 import { Card } from './components';
 
 const cardImages = [
-  { src: '/img/img-1.png', matched: false },
-  { src: '/img/img-2.png', matched: false },
-  { src: '/img/img-3.png', matched: false },
-  { src: '/img/img-4.png', matched: false },
-  { src: '/img/img-5.png', matched: false },
-  { src: '/img/img-6.png', matched: false },
+  { src: 'https://mangust5580.github.io/MemoryGame/img/img-1.png', matched: false },
+  { src: 'https://mangust5580.github.io/MemoryGame/img/img-2.png', matched: false },
+  { src: 'https://mangust5580.github.io/MemoryGame/img/img-3.png', matched: false },
+  { src: 'https://mangust5580.github.io/MemoryGame/img/img-4.png', matched: false },
+  { src: 'https://mangust5580.github.io/MemoryGame/img/img-5.png', matched: false },
+  { src: 'https://mangust5580.github.io/MemoryGame/img/img-6.png', matched: false },
 ];
 
 function App() {
