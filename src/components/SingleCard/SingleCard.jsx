@@ -12,7 +12,7 @@ export const Card = ({ card, handleChoice, flipped, disabled }) => {
     <div className={s.card}>
       <div className={flipped ? s.flipped : ''}>
         <img className={s.front} src={card.src} alt="card front" />
-        <img className={s.back} src="/img/cover.png" alt="card back" onClick={handleClick} />
+        <img className={s.back} src="https://mangust5580.github.io/MemoryGame/img/cover.png" alt="card back" onClick={handleClick} />
       </div>
     </div>
   );
